@@ -1,0 +1,106 @@
+body {
+    font-family: sans-serif;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.muted {
+    color: #ced4da;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: grid;
+    gap: 20px;
+}
+
+.two-col {
+    grid-template-columns: 1fr 1fr;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form textarea, form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: white;
+    border: none;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    color: #212529;
+    border: none;
+}
+
+.list-group-item {
+    background-color: #f1f1f1;
+    border: 1px solid #dee2e6;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .two-col {
+        grid-template-columns: 1fr;
+    }
+}
